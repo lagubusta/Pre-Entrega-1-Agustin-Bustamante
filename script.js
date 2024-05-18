@@ -11,6 +11,7 @@ do {
 } while (nombre === "" || !isNaN(nombre) || nombre.match(/\d/));
 
 console.log("¡Hola " + nombre + "! Vamos a hacer un simulacro de las ventas de 4 días del mes pasado.");
+
 function ventasD(dia) {
     let esNumero;
     do {
